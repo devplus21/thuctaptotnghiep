@@ -58,29 +58,29 @@ const items = [
       <SisternodeOutlined />,
     ),
   ]),
+  getItem('Mã giảm giá', 'code', <QrcodeOutlined />, [
+    getItem(
+      <Link to="/admin/discounts">Mã giảm giá</Link>,
+      '11',
+      <QrcodeOutlined />,
+    ),
+    getItem(
+      <Link to="/admin/discount">Thêm mã giảm giá</Link>,
+      '12',
+      <AppstoreAddOutlined />,
+    ),
+  ]),
   getItem(<Link to="/admin/users">Khách hàng</Link>, 'sub2', <TeamOutlined />),
   getItem(
     <Link to="/admin/orders">Đơn đặt hàng</Link>,
     '9',
     <AreaChartOutlined />,
   ),
-  // getItem(
-  //   <Link to="/admin/productReviews">Đánh giá sản phẩm</Link>,
-  //   '10',
-  //   <CommentOutlined />,
-  // ),
-  // getItem('Mã giảm giá', 'code', <QrcodeOutlined />, [
-  //   getItem(
-  //     <Link to="/admin/discounts">Mã giảm giá</Link>,
-  //     '11',
-  //     <QrcodeOutlined />,
-  //   ),
-  //   getItem(
-  //     <Link to="/admin/discount">Thêm mã giảm giá</Link>,
-  //     '12',
-  //     <AppstoreAddOutlined />,
-  //   ),
-  // ]),
+  getItem(
+    <Link to="/admin/productReviews">Đánh giá sản phẩm</Link>,
+    '10',
+    <CommentOutlined />,
+  ),
 ];
 
 const Admin = () => {
