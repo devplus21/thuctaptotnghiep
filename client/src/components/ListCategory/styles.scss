@@ -1,0 +1,61 @@
+.listproductContainer {
+  margin: 20px auto;
+}
+.listProductText {
+  font-family: Pandora Display, Arial, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  word-break: normal;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  line-height: 1.22;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.text-tit {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+.text-tit h2 {
+  font-family: Pandora Display, Arial, sans-serif;
+  font-size: 27px;
+  line-height: 1.22;
+  font-weight: 700;
+}
+.listProductItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.listProductItem_container {
+  border: 2.5px solid rgb(66, 103, 178);
+  box-sizing: border-box;
+  padding-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 22px;
+  box-shadow: 0 0 20px #d3d3d3;
+}
+.listProductItem_container img {
+  max-width: 100%;
+  max-height: 270px;
+}
+.listProductItem_title {
+  display: inline-block;
+
+  text-transform: uppercase;
+  color: #000;
+}
+.listProductItem_container:hover .listProductItem_title {
+  border-bottom: 3px solid rgb(66, 103, 178);
+}
